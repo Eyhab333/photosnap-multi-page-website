@@ -662,8 +662,7 @@ ul {
 
   footer {
     background: #000000;
-    padding-top: 56px;
-    padding-bottom: 56px;
+    padding: 64px 165px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -676,8 +675,7 @@ ul {
     .social-media {
       height: 20px;
       width: 154px;
-      margin-bottom: 49px;
-      margin-top: 32px;
+      margin-top: 85px;
     }
 
     .links {
@@ -701,7 +699,6 @@ ul {
     }
 
     .get-an-invite {
-      margin-top: 119px;
       @include center-horizontally;
       justify-content: center;
       font-weight: 700;
