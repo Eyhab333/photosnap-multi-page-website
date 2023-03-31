@@ -35,38 +35,56 @@
       <div class="icon-hamburger">
         <img src="./assets/shared/mobile/menu.svg" alt="menu" />
       </div>
+      <nav>
+        <ul>
+          <li><a href="#">STORIES</a></li>
+          <li><a href="#">FEATURES</a></li>
+          <li><a href="#">PRICING</a></li>
+        </ul>
+      </nav>
+      <a class="get" href="#">GET AN INVITE</a>
     </header>
 
     <main>
       <section class="hero">
+        <div class="text-container">
+          <div class="text">
+            <h1>Create and share your photo stories.</h1>
+            <p>
+              Photosnap is a platform for photographers and visual storytellers.
+              We make it easy to share photos, tell stories and connect with
+              others.
+            </p>
+            <a class="get-an-invite" href="#">
+              GET AN INVITE
+              <div class="arrow">
+                <img src="./assets/arrow-light.svg" alt="arrow" />
+              </div>
+            </a>
+          </div>
+        </div>
         <div class="image">
-          <img
+          <picture>
+            <source media="(min-width: 600)" srcset="./assets/home/desktop/create-and-share.jpg">
+            <img
             src="./assets/home/mobile/create-and-share.jpg"
             alt="designed-for-everyone"
           />
+          </picture>
         </div>
-        <div class="text">
-          <h1>Create and share your photo stories.</h1>
-          <p>
-            Photosnap is a platform for photographers and visual storytellers.
-            We make it easy to share photos, tell stories and connect with
-            others.
-          </p>
-          <a class="get-an-invite" href="#">
-            GET AN INVITE
-            <div class="arrow">
-              <img src="./assets/arrow-light.svg" alt="arrow" />
-            </div>
-          </a>
-        </div>
+        
       </section>
 
       <section class="beautiful">
         <div class="image">
-          <img
+          <picture>
+            <source media="(min-width: 600)" srcset="./assets/home/desktop/beautiful-stories.jpg">
+            <img
             src="./assets/home/mobile/beautiful-stories.jpg"
             alt="beautiful-stories"
           />
+          </picture>
+          
         </div>
         <div class="text">
           <h2>BEAUTIFUL STORIES EVERY TIME</h2>
@@ -85,12 +103,6 @@
       </section>
 
       <section class="designed">
-        <div class="image">
-          <img
-            src="./assets/home/mobile/designed-for-everyone.jpg"
-            alt="designed"
-          />
-        </div>
         <div class="text">
           <h2>DESIGNED FOR EVERYONE</h2>
           <p>
@@ -105,6 +117,17 @@
             </div>
           </a>
         </div>
+        <div class="image">
+          <picture>
+            <source media="(min-width: 600px)" srcset="./assets/home/desktop/designed-for-everyone.jpg">
+            <img
+            src="./assets/home/mobile/designed-for-everyone.jpg"
+            alt="designed"
+          />
+          </picture>
+          
+        </div>
+        
       </section>
 
       <div class="the-stories">
